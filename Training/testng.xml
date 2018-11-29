@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNGConcepts" verbose="1" >
+  <test name="Practise" >
+    <classes>
+       <class name="TestNGConcepts.GoogleTest" />
+       <class name="TestNGConcepts.TestNGBasics" />
+    </classes>
+    
+  </test> 
+
+</suite>

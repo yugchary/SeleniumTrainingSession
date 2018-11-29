@@ -1,0 +1,20 @@
+TestNG (New Generation) 
+	1. unit testing framework
+	2. supports TDD (Test Driven Development)
+	3. its a open source tool, available in the form of jar
+	4. used for java based unit testing frameworks
+	
+Purpose:
+	1. design test cases in systematic way
+	2. provides html test execution reports
+	3. different annotations
+	4. proirities/sequence
+	5. attach dependency with other tests
+	6. provides grouping concept
+	7. has data provider feature to execute same test case (Login) with multiple inputs
+	
+Install:
+	1. point to "http://beust.com/eclipse/" in the eclipse and install
+	2. Add the  testNG lib to the build path
+	
+	

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGConcepts" duration-ms="31655" started-at="2018-09-14T16:11:58Z" finished-at="2018-09-14T16:12:30Z">
+    <groups>
+      <group name="Basic">
+        <method signature="TestNGBasics.getPageTitle()[pri:1, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="getPageTitle" class="TestNGConcepts.TestNGBasics"/>
+        <method signature="TestNGBasics.goolgeLogo()[pri:2, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="goolgeLogo" class="TestNGConcepts.TestNGBasics"/>
+      </group> <!-- Basic -->
+      <group name="Adv">
+        <method signature="TestNGBasics.googleSerch()[pri:3, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="googleSerch" class="TestNGConcepts.TestNGBasics"/>
+      </group> <!-- Adv -->
+    </groups>
+    <test name="Practise" duration-ms="31655" started-at="2018-09-14T16:11:58Z" finished-at="2018-09-14T16:12:30Z">
+      <class name="TestNGConcepts.GoogleTest">
+        <test-method status="FAIL" signature="getTitle(java.lang.String)[pri:0, instance:TestNGConcepts.GoogleTest@7e2d773b]" name="getTitle" duration-ms="0" started-at="2018-09-14T16:11:58Z" data-provider="getdata" finished-at="2018-09-14T16:11:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider void TestNGConcepts.GoogleTest.getdata() returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider void TestNGConcepts.GoogleTest.getdata() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestNGConcepts.GoogleTest@7e2d773b]" name="setUP" is-config="true" duration-ms="30793" started-at="2018-09-14T16:11:58Z" finished-at="2018-09-14T16:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:TestNGConcepts.GoogleTest@7e2d773b]" name="verifyLogo" duration-ms="79" started-at="2018-09-14T16:12:29Z" finished-at="2018-09-14T16:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGConcepts.GoogleTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="724" started-at="2018-09-14T16:12:29Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGConcepts.GoogleTest -->
+      <class name="TestNGConcepts.TestNGBasics">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="setUP" is-config="true" duration-ms="8" started-at="2018-09-14T16:11:58Z" finished-at="2018-09-14T16:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2018-09-14T16:11:58Z" finished-at="2018-09-14T16:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="login" is-config="true" duration-ms="1" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="enterURL" is-config="true" duration-ms="1" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="getPageTitle()[pri:1, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="getPageTitle" duration-ms="2" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method status="PASS" signature="logoutURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="logoutURL" is-config="true" duration-ms="0" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutURL -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="enterURL" is-config="true" duration-ms="0" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="getPageTitle()[pri:1, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="getPageTitle" duration-ms="2" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method status="PASS" signature="logoutURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="logoutURL" is-config="true" duration-ms="1" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutURL -->
+        <test-method status="FAIL" signature="goolgeLogo()[pri:2, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="goolgeLogo" duration-ms="10" started-at="2018-09-14T16:12:30Z" depends-on-methods="TestNGConcepts.TestNGBasics.getPageTitle" finished-at="2018-09-14T16:12:30Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method TestNGConcepts.TestNGBasics.goolgeLogo() didn't finish within the time-out 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method TestNGConcepts.TestNGBasics.goolgeLogo() didn't finish within the time-out 1
+at java.lang.Thread.interrupt(Unknown Source)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:64)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:40)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goolgeLogo -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="enterURL" is-config="true" duration-ms="0" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="logoutURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="logoutURL" is-config="true" duration-ms="0" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutURL -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="enterURL" is-config="true" duration-ms="0" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="googleSerch()[pri:3, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="googleSerch" duration-ms="2" started-at="2018-09-14T16:12:30Z" depends-on-methods="TestNGConcepts.TestNGBasics.getPageTitle" finished-at="2018-09-14T16:12:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at TestNGConcepts.TestNGBasics.googleSerch(TestNGBasics.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSerch -->
+        <test-method status="PASS" signature="logoutURL()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="logoutURL" is-config="true" duration-ms="0" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutURL -->
+        <test-method status="PASS" signature="closeBroswer()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="closeBroswer" is-config="true" duration-ms="1" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:TestNGConcepts.TestNGBasics@4d50efb8]" name="deleteCookies" is-config="true" duration-ms="0" started-at="2018-09-14T16:12:30Z" finished-at="2018-09-14T16:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+      </class> <!-- TestNGConcepts.TestNGBasics -->
+    </test> <!-- Practise -->
+  </suite> <!-- TestNGConcepts -->
+</testng-results>

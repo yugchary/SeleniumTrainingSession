@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG]">
+  <test thread-count="5" name="Practise(failed)">
+    <classes>
+      <class name="TestNG.TestNGBasics">
+        <methods>
+          <include name="getPageTitle"/>
+          <include name="closeBroswer"/>
+          <include name="enterURL"/>
+          <include name="login"/>
+          <include name="setUP"/>
+          <include name="foolgeLogo"/>
+          <include name="launchBrowser"/>
+          <include name="deleteCookies"/>
+          <include name="logoutURL"/>
+        </methods>
+      </class> <!-- TestNG.TestNGBasics -->
+    </classes>
+  </test> <!-- Practise(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
